@@ -1,0 +1,9 @@
+.place__box {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.place__box:last-of-type {
+  margin-bottom: 0;
+}
