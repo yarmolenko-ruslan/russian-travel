@@ -1,14 +1,15 @@
 .cover__link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  text-align: center;
   background-image: url(../../../images/cover-background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 740px;
   color: #fff;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 .cover__link::before {
