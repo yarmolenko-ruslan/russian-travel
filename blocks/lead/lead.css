@@ -2,3 +2,10 @@
   max-width: 984px;
   margin: 0 auto;
 }
+
+@media (max-width: 900px) {
+  .lead {
+    width: 100%;
+    padding: 44px 0 24px;
+  }
+}
