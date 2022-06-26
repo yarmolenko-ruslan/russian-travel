@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   min-height: 740px;
   color: #fff;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .cover__link::before {
@@ -26,4 +26,10 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media (max-width: 760px) {
+  .cover__link {
+    min-height: 200px;
+  }
 }

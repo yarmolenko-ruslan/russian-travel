@@ -2,3 +2,11 @@
   margin: 46px auto 44px;
   max-width: 1184px;
 }
+
+@media (max-width: 760px) {
+  .cover {
+    margin: 50px auto 20px;
+    margin-top: 50px;
+    max-width: 100%;
+  }
+}

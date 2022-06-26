@@ -4,3 +4,11 @@
   margin: 0 0 32px 0;
   font-weight: 900;
 }
+
+@media (max-width: 760px) {
+  .cover__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+    max-width: 250px;
+  }
+}

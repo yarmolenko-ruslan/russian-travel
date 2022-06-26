@@ -4,3 +4,10 @@
   line-height: 1.6;
   margin: 0 0 33px 0;
 }
+
+@media (max-width: 760px) {
+  .intro__text {
+    max-width: 100%;
+    margin: 0 0 34px 0;
+  }
+}

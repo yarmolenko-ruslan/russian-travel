@@ -4,3 +4,9 @@
   margin: 0 0 40px 0;
   font-weight: 900;
 }
+
+@media (max-width: 760px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}

@@ -13,3 +13,10 @@
     max-width: 340px;
   }
 }
+
+@media (max-width: 760px) {
+  .place__title {
+    font-size: 32px;
+    max-width: 100%;
+  }
+}

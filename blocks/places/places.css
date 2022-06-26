@@ -2,3 +2,9 @@
   margin: 0 auto;
   max-width: 984px;
 }
+
+@media (max-width: 760px) {
+  .places {
+    padding: 48px 0 16px;
+  }
+}
