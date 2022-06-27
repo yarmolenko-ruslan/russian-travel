@@ -1,0 +1,13 @@
+.page__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  .page__flex {
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+}

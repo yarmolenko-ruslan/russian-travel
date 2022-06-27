@@ -1,0 +1,15 @@
+.page__section-padding {
+  padding: 46px 48px;
+}
+
+@media (max-width: 900px) {
+  .page__section-padding {
+    padding: 44px 24px;
+  }
+}
+
+@media (max-width: 760px) {
+  .page__section-padding {
+    padding: 32px 16px;
+  }
+}

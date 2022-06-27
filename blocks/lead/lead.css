@@ -6,6 +6,7 @@
 @media (max-width: 900px) {
   .lead {
     width: 100%;
-    padding: 44px 0 24px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

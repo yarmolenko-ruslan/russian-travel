@@ -1,12 +1,23 @@
 .cover {
-  margin: 46px auto 44px;
   max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    padding: 46px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .cover {
+    padding: 45px 0 44px;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 760px) {
   .cover {
-    margin: 50px auto 20px;
-    margin-top: 50px;
-    max-width: 100%;
+    padding: 33px 0 32px;
   }
 }

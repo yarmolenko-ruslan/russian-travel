@@ -2,9 +2,10 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/title/title.css);
-@import url(../blocks/section-padding/section-padding.css);
+@import url(../blocks/page/__section-padding/page__section-padding.css);
 @import url(../blocks/link/link.css);
-@import url(../blocks/flex/flex.css);
+@import url(../blocks/page/__flex/page__flex.css);
+
 
 /* import header */
 
@@ -43,6 +44,7 @@
 /* import places */
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/_padding/places_padding.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__box/place__box.css);
 @import url(../blocks/place/__box/_top/place__box_top.css);

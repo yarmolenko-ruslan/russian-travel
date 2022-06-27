@@ -2,3 +2,9 @@
   font-size: 16px;
   line-height: 1.125;
 }
+
+@media (max-width: 760px) {
+  .footer__link {
+    font-size: 24px;
+  }
+}
