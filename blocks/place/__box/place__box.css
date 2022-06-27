@@ -8,10 +8,22 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 1024px) {
+  .place__box {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .place__box {
+    gap: 28px;
+  }
+}
+
 @media (max-width: 760px) {
   .place__box {
     flex-direction: column;
     margin-bottom: 32px;
-    gap: 32px;
+    gap: 33px;
   }
 }

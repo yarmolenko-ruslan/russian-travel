@@ -1,10 +1,11 @@
-.place__box_top {
+.place__box_location_top {
   align-items: end;
 }
 
 @media (max-width: 760px) {
-  .place__box_top {
+  .place__box_location_top {
     align-items: start;
     padding: 0 16px;
+    gap: 21px;
   }
 }

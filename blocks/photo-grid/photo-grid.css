@@ -2,3 +2,15 @@
   max-width: 1184px;
   margin: 0 auto;
 }
+
+@media (max-width: 900px) {
+  .photo-grid {
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 760px) {
+  .photo-grid {
+    padding-bottom: 33px;
+  }
+}

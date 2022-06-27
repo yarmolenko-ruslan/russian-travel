@@ -1,5 +1,6 @@
 .cover__link {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -26,6 +27,18 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    min-height: 642px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cover__link {
+    min-height: 480px;
+  }
 }
 
 @media (max-width: 760px) {

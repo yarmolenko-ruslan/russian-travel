@@ -5,8 +5,15 @@
   font-weight: 900;
 }
 
+@media (max-width: 900px) {
+  .intro__title {
+    margin: 0 0 39px 0;
+  }
+}
+
 @media (max-width: 760px) {
   .intro__title {
+    max-width: 250px;
     font-size: 32px;
   }
 }

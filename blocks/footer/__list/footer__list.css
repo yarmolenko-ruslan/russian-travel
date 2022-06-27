@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .footer__list  {
+    gap: 19px;
+  }
+}
+
 @media (max-width: 900px) {
   .footer__list  {
     flex-wrap: wrap;
@@ -22,6 +28,6 @@
     justify-content: start;
     align-items: start;
     margin-right: 0;
-    gap: 32px;
+    gap: 29px;
   }
 }

@@ -3,14 +3,22 @@
   width: 100%;
   font-size: 72px;
   font-weight: 900;
-  line-height: 1.06;
+  line-height: 1.05;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
 }
 
 @media (max-width: 900px) {
   .place__title {
+    box-sizing: border-box;
     font-size: 42px;
     max-width: 340px;
+    padding-right: 10px;
   }
 }
 
